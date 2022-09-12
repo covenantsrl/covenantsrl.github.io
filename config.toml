@@ -2,3 +2,5 @@ baseURL = 'https://www.covenant.srl/'
 languageCode = 'en-us'
 title = 'Covenant'
 theme = "ananke"
+publishDir = "docs"
+
