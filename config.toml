@@ -1,6 +1,13 @@
 baseURL = 'https://www.covenant.srl/'
 languageCode = 'en-us'
 title = 'Covenant'
-theme = "ananke"
+theme = "covenant-theme"
 publishDir = "docs"
+defaultContentLang = 'it'
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    weight = 1
+
 
