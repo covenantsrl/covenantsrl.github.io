@@ -1,13 +1,9 @@
 baseURL = 'https://www.covenant.srl/'
 languageCode = 'en-us'
-title = 'Covenant'
+title = 'Covenant Srls - The New Web3 Software and Privacy Company'
 theme = "covenant-theme"
 publishDir = "docs"
 defaultContentLang = 'it'
-[languages]
-  [languages.en]
-    contentDir = 'content/en'
-    languageName = 'English'
-    weight = 1
 
-
+[params]
+  copyright = "Copyright © 2022 Covenant Srls. P.IVA 14635081004. Via Flavia, 47 - 00187 Roma. Tutti i diritti riservati."
