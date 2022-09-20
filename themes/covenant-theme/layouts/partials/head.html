@@ -1,13 +1,28 @@
-<meta charset="utf-8">
-<meta name="author" content="Covenant">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<!-- Fav Icon  -->
-<link rel="shortcut icon" href="/assets/images/favicon.png">
-<!-- Site Title  -->
-<title>Covenant - Web3, Blockchain and Privacy Company</title>
-<!-- Bundle and Base CSS -->
-<link rel="stylesheet" href="/assets/css/vendor.bundle.css?ver=200">
-<link rel="stylesheet" href="/assets/css/style.css?ver=200">
-<!-- Extra CSS -->
-<link rel="stylesheet" href="/assets/css/theme.css?ver=200">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"{{with .Site.LanguageCode}} xml:lang="{{.}}" lang="{{.}}"{{end}}>
+<head>
+      <meta charset="utf-8">
+      <meta name="author" content="Softnio">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    {{ if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  {{- else -}}
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  {{- end }}
+
+  <!-- Fav Icon  -->
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.png">
+  <!-- Site Title  -->
+  <title>{{$.Title}}</title>
+  <!-- Bundle and Base CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/vendor.bundle.css?ver=200">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css?ver=200">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style-dark.css?ver=200">
+
+  <!-- Extra CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/theme.css?ver=200">
+
+</head>

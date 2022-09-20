@@ -1,9 +1,8 @@
 ---
 title: "Privacy"
-date: 2022-09-16T17:14:22+02:00
-draft: false
+draft: true
 ---
-## INFORMAZIONI SUL TRATTAMENTO DEI DATI PERSONALI degli utenti che consultano il sito web della Covenant S.r.l.s. ai sensi dell’articolo 13 del Regolamento (UE) 2016/679
+###### INFORMAZIONI SUL TRATTAMENTO DEI DATI PERSONALI degli utenti che consultano il sito web della Covenant S.r.l.s. ai sensi dell’articolo 13 del Regolamento (UE) 2016/679
 
 ## PERCHÈ QUESTE INFORMAZIONI
 Ai sensi del Regolamento (UE) 2016/679 (di seguito “Regolamento”), questa pagina descrive le modalità di trattamento dei dati personali degli utenti che consultano i siti della Covenant Srls per la protezione dei dati personali (di seguito “Titolare del trattamento”) accessibili per via telematica al seguente indirizzo:
