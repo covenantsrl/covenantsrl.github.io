@@ -26,6 +26,15 @@ Back to covenant.srl </description>
     </item>
     
     <item>
+      <title>Home2</title>
+      <link>http://localhost:1313/home/home2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/home/home2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Privacy</title>
       <link>http://localhost:1313/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
