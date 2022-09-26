@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="zxx" class="js">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Softnio">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <!-- Site Title  -->
-    <title>Azure | ICO Crypto - ICO Landing Page &amp; Multi-Purpose Cryptocurrency HTML Template</title>
-    <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=200">
-    <link rel="stylesheet" href="assets/css/style-azure.css?ver=200">
-    <!-- Extra CSS -->
-    <link rel="stylesheet" href="assets/css/theme.css?ver=200">
+{{ partial "head.html" . }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style-azure.css?ver=200">
 </head>
 
 <body class="nk-body body-wider mode-onepage">
@@ -27,8 +12,8 @@
                         <!-- Logo @s -->
                         <div class="header-logo header-logo-ls logo animated" data-animate="fadeInDown" data-delay=".65">
                             <a href="./" class="logo-link">
-                                <img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
-                                <img class="logo-light" src="images/logo-white.png" srcset="images/logo-white2x.png 2x" alt="logo">
+                                <img class="logo-dark" src="{{ .Site.BaseURL }}images/logo.png" srcset="{{ .Site.BaseURL }}images/logo2x.png 2x" alt="logo">
+                                <img class="logo-light" src="{{ .Site.BaseURL }}images/logo-white.png" srcset="{{ .Site.BaseURL }}images/logo-white2x.png 2x" alt="logo">
                             </a>
                             <div class="language-switcher language-switcher-s3 toggle-wrap">
                                 <a class="toggle-tigger" href="#">EN</a>
@@ -77,7 +62,7 @@
                                 <div class="row align-items-center justify-content-center justify-content-lg-between">
                                     <div class="col-lg-6 order-lg-last animated" data-animate="fadeInUp" data-delay="1.25">
                                         <div class="banner-gfx banner-gfx-re-s5">
-                                            <img src="images/header/gfx-f.png" alt="header">
+                                            <img src="{{ .Site.BaseURL }}images/header/gfx-f.png" alt="header">
                                         </div>
                                     </div><!-- .col -->
                                     <div class="col-lg-6 text-center text-lg-start">
@@ -1220,10 +1205,10 @@
     <!-- Preloader -->
     <div class="preloader"><span class="spinner spinner-round"></span></div>
     <!-- JavaScript -->
-    <script src="assets/js/jquery.bundle.js?ver=200"></script>
-    <script src="assets/js/scripts.js?ver=200"></script>
-    <script src="assets/js/charts.js?ver=200"></script>
-    <script src="assets/js/toastr.examples.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.bundle.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/scripts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/charts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/toastr.examples.js?ver=200"></script>
 </body>
 
 </html>

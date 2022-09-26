@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="zxx" class="js">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Softnio">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <!-- Site Title  -->
-    <title>Gentian Pro | ICO Crypto - ICO Landing Page &amp; Multi-Purpose Cryptocurrency HTML Template</title>
-    <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=200">
-    <link rel="stylesheet" href="assets/css/style.css?ver=200">
-    <!-- Extra CSS -->
-    <link rel="stylesheet" href="assets/css/theme.css?ver=200">
+{{ partial "head.html" . }}
 </head>
 
 <body class="nk-body body-wider bg-light mode-onepage">
@@ -1332,10 +1316,11 @@
     <!-- preloader -->
     <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/logo-full-white.png" alt=""></span></div>
     <!-- JavaScript -->
-    <script src="assets/js/jquery.bundle.js?ver=200"></script>
-    <script src="assets/js/scripts.js?ver=200"></script>
-    <script src="assets/js/charts.js?ver=200"></script>
-    <script src="assets/js/charts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.bundle.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/scripts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/charts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/charts.js?ver=200"></script>
+
 </body>
 
 </html>

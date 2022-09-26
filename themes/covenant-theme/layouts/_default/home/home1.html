@@ -1,4 +1,7 @@
 {{ partial "head.html" . }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style-dark.css?ver=200">
+</head>
+
 <body class="nk-body body-wider theme-dark mode-onepage">
     <div class="nk-wrap">
         <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
@@ -9,8 +12,8 @@
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
                             <a href="./" class="logo-link">
-                                <img class="logo-dark" src="{{ .Site.BaseURL }}images/logo-cov-dark.png" srcset="images/logo2x.png 2x" alt="logo">
-                                <img class="logo-light" src="{{ .Site.BaseURL }}images/logo-cov.png" srcset="images/logo-white2x.png 2x" alt="logo">
+                                <img class="logo-dark" src="{{ .Site.BaseURL }}images/logo-cov-dark.png" srcset="{{ .Site.BaseURL }}images/logo-cov-dark.png 2x" alt="logo">
+                                <img class="logo-light" src="{{ .Site.BaseURL }}images/logo-cov.png" srcset="{{ .Site.BaseURL }}images/logo-cov.png 2x" alt="logo">
                             </a>
                         </div>
                         <!-- Menu Toogle @s -->

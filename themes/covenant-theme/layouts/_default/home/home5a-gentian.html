@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="zxx" class="js">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Softnio">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <!-- Fav Icon  -->
-    <link rel="shortcut icon" href="images/favicon.png">
-    <!-- Site Title  -->
-    <title>Gentian | ICO Crypto - ICO Landing Page &amp; Multi-Purpose Cryptocurrency HTML Template</title>
-    <!-- Bundle and Base CSS -->
-    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=200">
-    <link rel="stylesheet" href="assets/css/style.css?ver=200">
-    <!-- Extra CSS -->
-    <link rel="stylesheet" href="assets/css/theme.css?ver=200">
+{{ partial "head.html" . }}
 </head>
 
-<body class="nk-body body-wider theme-dark mode-onepage">
+<body class="nk-body body-wider bg-light">
     <div class="nk-wrap">
-        <header class="nk-header page-header is-transparent is-sticky is-shrink is-dark" id="header">
+        <header class="nk-header page-header is-transparent is-sticky is-shrink" id="header">
             <!-- Header @s -->
             <div class="header-main">
                 <div class="header-container container">
@@ -27,8 +11,8 @@
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
                             <a href="./" class="logo-link">
-                                <img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
-                                <img class="logo-light" src="images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
+                                <img class="logo-dark" src="{{ .Site.BaseURL }}images/logo-cov-dark.png" srcset="{{ .Site.BaseURL }}images/logo-cov-dark.png 2x" alt="logo">
+                                <img class="logo-light" src="{{ .Site.BaseURL }}images/logo-cov.png" srcset="{{ .Site.BaseURL }}images/logo-cov.png 2x" alt="logo">
                             </a>
                         </div>
                         <!-- Menu Toogle @s -->
@@ -43,22 +27,170 @@
                         <div class="header-navbar animated" data-animate="fadeInDown" data-delay=".75">
                             <nav class="header-menu" id="header-menu">
                                 <ul class="menu">
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#header">Home</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#about">About</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#features">Features</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#tokensale">Token Sale</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
                                     <li class="menu-item has-sub">
-                                        <a class="menu-link nav-link menu-toggle" href="#">More</a>
+                                        <a class="menu-link nav-link menu-toggle" href="#">Home</a>
+                                        <div class="menu-sub menu-drop menu-mega menu-mega-3clmn">
+                                            <div class="menu-mega-innr">
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="index-azalea.html">Azalea Dark<span class="badge badge-xs badge-light">v1.6</span></a></li>
+                                                    <li class="menu-item"><a href="index-azalea-multi.html">Azalea Multi<span class="badge badge-xs badge-light">v1.6</span></a></li>
+                                                    <li class="menu-item"><a href="index-gentian.html">Gentian Dark<span class="badge badge-xs badge-light">v1.5</span></a></li>
+                                                    <li class="menu-item"><a href="index-gentian-pro.html">Gentian Pro<span class="badge badge-xs badge-light">v1.5</span></a></li>
+                                                    <li class="menu-item"><a href="index-gentian-multi.html">Gentian Multi<span class="badge badge-xs badge-light">v1.5</span></a></li>
+                                                    <li class="menu-item"><a href="index-zinnia.html">Zinnia Pro</a></li>
+                                                    <li class="menu-item"><a href="index-salvia.html">Salvia Pro</a></li>
+                                                </ul>
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="index-lungwort.html">Lungwort Dark</a></li>
+                                                    <li class="menu-item"><a href="index-jasmine.html">Jasmine Light</a></li>
+                                                    <li class="menu-item"><a href="index-lobelia.html">Lobalia Dark</a></li>
+                                                    <li class="menu-item"><a href="index-muscari.html">Muscari Pro</a></li>
+                                                    <li class="menu-item"><a href="index-lavender.html">Lavender Pro</a></li>
+                                                    <li class="menu-item"><a href="index-azure-pro.html">Azure Pro</a></li>
+                                                    <li class="menu-item"><a href="index-azure.html">Azure Dark</a></li>
+                                                </ul>
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="index-dark-pro.html">Default Dark Pro</a></li>
+                                                    <li class="menu-item"><a href="index-light.html">Default Light</a></li>
+                                                    <li class="menu-item"><a href="index-dark.html">Default Dark</a></li>
+                                                    <li class="menu-item"><a href="index-linum-wallet.html">Linum Wallet<span class="badge badge-xs badge-light">v1.8</span></a></li>
+                                                    <li class="menu-item"><a href="index-flax-wallet.html">Flax Wallet<span class="badge badge-xs badge-light">v1.8</span></a></li>
+                                                    <li class="menu-item"><a href="index-crocus-multi.html">Crocus Multi<span class="badge badge-xs badge-light">v1.9</span></a></li>
+                                                    <li class="menu-item"><a href="index-cyanus-multi.html">Cyanus Multi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item has-sub">
+                                        <a class="menu-link nav-link menu-toggle" href="#">Pages</a>
+                                        <div class="menu-sub menu-drop menu-mega menu-mega-2clmn">
+                                            <div class="menu-mega-innr">
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-about.html">About Us - Base</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-about-v2.html">About Us - Linum</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-about-v3.html">About Us - Cyanus<span class="badge badge-dot"></span></a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-team.html">Our Teams</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-wallets.html">Wallets -v1</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-wallets-v2.html">Wallets -v2</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-features.html">Features</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-token-sale.html">Token Sale</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-roadmap.html">Roadmap</a></li>
+                                                </ul>
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-download.html">Download</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-faq.html">FAQs</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-contact.html">Contact - Base</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-contact-v2.html">Contact - Cyanus<span class="badge badge-dot"></span></a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-exchange.html">Exchange - Cyanus<span class="badge badge-dot"></span></a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-partner.html">Partner - Cyanus<span class="badge badge-dot"></span></a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-mission.html">Mission - Cyanus<span class="badge badge-dot"></span></a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-career.html">Career - Cyanus<span class="badge badge-dot"></span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item has-sub">
+                                        <a class="menu-link nav-link menu-toggle" href="#">Blog & Misc</a>
                                         <ul class="menu-sub menu-drop">
-                                            <li class="menu-item"><a class="menu-link nav-link" href="#team">Team</a></li>
-                                            <li class="menu-item"><a class="menu-link nav-link" href="#faq">Faq</a></li>
+                                            <li class="menu-item has-sub">
+                                                <a class="menu-link nav-link menu-toggle" href="#">Blog Pages</a>
+                                                <ul class="menu-sub menu-drop">
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="blog-3clmn.html">Blog 3 Column</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="blog-sidebar-left.html">Blog Sidebar - Left</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="blog-sidebar-right.html">Blog Sidebar - Right</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="blog-details.html">Blog Single - Sidebar</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="blog-details-full.html">Blog Single - Full Width</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item has-sub">
+                                                <a class="menu-link nav-link menu-toggle" href="#">Auth Pages</a>
+                                                <ul class="menu-sub menu-drop">
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-login.html">Login - v1</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-register.html">Register - v1</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-reset.html">Reset - v1</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-login-v2.html">Login - v2</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-register-v2.html">Register - v2</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="page-reset-v2.html">Reset - v2</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item has-sub">
+                                                <a class="menu-link nav-link menu-toggle" href="#">Coming Soon</a>
+                                                <ul class="menu-sub menu-drop">
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="coming-soon-azalea.html" target="_blank">Coming Soon - Azalea</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="coming-soon-gentian.html" target="_blank">Coming Soon - Gentian</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="coming-soon-gentian-alt.html" target="_blank">Coming Soon - Gentian Alt</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="coming-soon-dark.html" target="_blank">Coming Soon - Dark</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="coming-soon-light.html" target="_blank">Coming Soon - Light</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item has-sub">
+                                                <a class="menu-link nav-link menu-toggle" href="#">Error 404</a>
+                                                <ul class="menu-sub menu-drop">
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="error-404-gentian.html" target="_blank">404 - Gentian</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="error-404-gentian-alt.html" target="_blank">404 - Gentian Alt</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="error-404-azalea.html" target="_blank">404 - Azalea</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="error-404-dark.html" target="_blank">404 - Dark</a></li>
+                                                    <li class="menu-item"><a class="menu-link nav-link" href="error-404-light.html" target="_blank">404 - Light</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#contact">Contact</a></li>
+                                    <li class="menu-item has-sub">
+                                        <a class="menu-link nav-link menu-toggle" href="#">Elements</a>
+                                        <div class="menu-sub menu-drop menu-mega menu-mega-2clmn">
+                                            <div class="menu-mega-innr">
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="element-alert.html">Alert</a></li>
+                                                    <li class="menu-item"><a href="element-button.html">Buttons</a></li>
+                                                    <li class="menu-item"><a href="element-content.html">Contents</a></li>
+                                                    <li class="menu-item"><a href="element-table.html">Tables</a></li>
+                                                    <li class="menu-item"><a href="element-video.html">Videos</a></li>
+                                                    <li class="menu-item"><a href="element-typography.html">Typography</a></li>
+                                                    <li class="menu-item"><a href="element-progress-bar.html">Progress Bar</a></li>
+                                                    <li class="menu-item"><a href="element-form.html">Form Elements</a></li>
+                                                    <li class="menu-item"><a href="element-icon.html">Custom Icons<span class="badge badge-xs badge-info">v1.6.2</span></a></li>
+                                                </ul>
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="element-tab.html">Tabs</a></li>
+                                                    <li class="menu-item"><a href="element-grid.html">Grids</a></li>
+                                                    <li class="menu-item"><a href="element-color.html">Colors</a></li>
+                                                    <li class="menu-item"><a href="element-modal.html">Modals</a></li>
+                                                    <li class="menu-item"><a href="element-chart.html">Charts</a></li>
+                                                    <li class="menu-item"><a href="element-notification.html">Notification</a></li>
+                                                    <li class="menu-item"><a href="element-countdown.html">Countdown</a></li>
+                                                    <li class="menu-item"><a href="element-accordion.html">Accordions</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item has-sub">
+                                        <a class="menu-link nav-link menu-toggle" href="#">Blocks</a>
+                                        <div class="menu-sub menu-drop menu-mega menu-mega-2clmn">
+                                            <div class="menu-mega-innr">
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="block-navbar.html">Navbar</a></li>
+                                                    <li class="menu-item"><a href="block-page-header.html">Page Header</a></li>
+                                                    <li class="menu-item"><a href="block-footer.html">Footer</a></li>
+                                                    <li class="menu-item"><a href="block-team.html">Team</a></li>
+                                                    <li class="menu-item"><a href="block-banner.html">Banner <span class="badge badge-xs badge-hot">Hot</span></a></li>
+                                                    <li class="menu-item"><a href="block-faq.html">FAQs</a></li>
+                                                    <li class="menu-item"><a href="block-subscribe.html">Subscribe</a></li>
+                                                </ul>
+                                                <ul class="menu-mega-list">
+                                                    <li class="menu-item"><a href="block-roadmap.html">Roadmaps</a></li>
+                                                    <li class="menu-item"><a href="block-partner.html">Partners</a></li>
+                                                    <li class="menu-item"><a href="block-token-info.html">Token Info</a></li>
+                                                    <li class="menu-item"><a href="block-feature-card.html">Features Card</a></li>
+                                                    <li class="menu-item"><a href="block-feature-panel.html">Features Panel</a></li>
+                                                    <li class="menu-item"><a href="block-auth.html">Login / Register</a></li>
+                                                    <li class="menu-item"><a href="block-contact.html">Contact</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
                                 </ul>
                                 <ul class="menu-btns">
-                                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#login-popup" class="btn btn-md btn-auto btn-grad no-change"><span>Login</span></a></li>
+                                    <li><a href="page-login.html" class="btn btn-md btn-auto btn-grad no-change"><span>Login</span></a></li>
                                 </ul>
                             </nav>
                         </div><!-- .header-navbar @e -->
@@ -71,40 +203,29 @@
                     <div class="banner banner-fs banner-single banner-gap-b2">
                         <div class="banner-wrap">
                             <div class="container">
-                                <div class="row gutter-vr-30px align-items-center justify-content-center">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-lg-5 order-lg-last">
+                                        <div class="banner-gfx banner-gfx-re-s1 animated" data-animate="fadeInUp" data-delay=".9">
+                                            <img src="{{ .Site.BaseURL }}images/header/gfx-a.png" alt="header">
+                                        </div>
+                                    </div><!-- .col -->
                                     <div class="col-lg-7 col-sm-10 text-center text-lg-start">
-                                        <div class="banner-caption cpn tc-light mt-3 mt-lg-0">
+                                        <div class="banner-caption cpn tc-light">
                                             <div class="cpn-head">
-                                                <h1 class="title animated" data-animate="fadeInUp" data-delay="1.2">World’s First Ecosystem that <br class="d-none d-md-block"> Scaling Decentralized Applications</h1>
+                                                <h1 class="title animated" data-animate="fadeInUp" data-delay="1">World’s First Ecosystem that <br class="d-none d-md-block"> Scaling Decentralized Applications</h1>
                                             </div>
                                             <div class="cpn-text">
-                                                <p class="animated" data-animate="fadeInUp" data-delay="1.3">Our revolutionary blockchain service is designed to create your own blockchain ecosystem, secure digital assets and access to funding all over the world.</p>
+                                                <p class="animated" data-animate="fadeInUp" data-delay="1.1">Our revolutionary blockchain service is designed to create your own blockchain ecosystem, secure digital assets and access to funding all over the world.</p>
                                             </div>
                                             <div class="cpn-action">
-                                                <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="1.4">
+                                                <div class="cpn-btns animated" data-animate="fadeInUp" data-delay="1.2">
                                                     <a class="btn btn-grad" href="#">Register &amp; Buy Token Now</a>
                                                 </div>
-                                                <ul class="cpn-links animated" data-animate="fadeInUp" data-delay="1.5">
+                                                <ul class="cpn-links animated" data-animate="fadeInUp" data-delay="1.3">
                                                     <li><a class="link" href="#"><em class="link-icon far fa-lightbulb"></em><span>How to Buy</span></a></li>
                                                     <li><a class="link" href="#"><em class="link-icon fas fa-file-alt"></em><span>White Paper</span></a></li>
                                                 </ul>
                                             </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg-5">
-                                        <div class="token-status round bg-theme tc-light mb-5 mb-lg-0 no-bd animated" data-animate="fadeInUp" data-delay="1.4">
-                                            <h4 class="title title-md">Token Sale Stage End In</h4>
-                                            <div class="token-countdown countdown" data-date="2022/06/11"></div>
-                                            <div class="progress-wrap progress-wrap-point">
-                                                <span class="progress-info">Raised so far <span>$1,830,985</span></span>
-                                                <div class="progress-bar">
-                                                    <div class="progress-percent bg-grad" data-percent="30"></div>
-                                                    <div class="progress-point progress-point-1">Soft Cap <span>$1.75m</span></div>
-                                                    <div class="progress-point progress-point-2">Hard Cap <span>$4.75m</span></div>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn btn-grad">Register &amp; Buy Token Now</a>
-                                            <span class="token-min">Minimum Purchase: 200 ICOX</span>
                                         </div>
                                     </div><!-- .col -->
                                 </div><!-- .row -->
@@ -112,7 +233,7 @@
                         </div>
                     </div>
                 </div><!-- .nk-banner -->
-                <div class="nk-ovm mask-a-dark shape-a"></div>
+                <div class="nk-ovm mask-a shape-a"></div>
                 <!-- Place Particle Js -->
                 <div id="particles-bg" class="particles-container particles-bg"></div>
             </div>
@@ -145,7 +266,7 @@
                 </ul>
             </section>
             <!-- // -->
-            <section class="section bg-theme-dark tc-light section-about" id="about">
+            <section class="section bg-light section-about" id="about">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-about">
@@ -171,7 +292,7 @@
                         <h2 class="title title-lg animated" data-animate="fadeInUp" data-delay=".6">Key features of ICO Crypto</h2>
                     </div><!-- .section-head @e -->
                     <!-- Block @s -->
-                    <div class="nk-block nk-block-features">
+                    <div class="nk-block nk-block-features mgb-m30">
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="feature animated" data-animate="fadeInUp" data-delay=".7">
@@ -179,7 +300,7 @@
                                         <em class="icon ikon ikon-paricle-alt"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h5 class="title title-sm tc-primary">Create a secure decentralize</h5>
+                                        <h5 class="title title-sm">Create a secure decentralize</h5>
                                         <p>Tempore, cum soluta nobis est eligendi optiocum que nihil maxime placeat facere possimus.</p>
                                     </div>
                                 </div>
@@ -190,7 +311,7 @@
                                         <em class="icon ikon ikon-donught"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h5 class="title title-sm tc-primary">Solving small business problems</h5>
+                                        <h5 class="title title-sm">Solving small business problems</h5>
                                         <p>Placeat facere possimus, omnis voluptas assum enda est, omnis dolor repellendus. </p>
                                     </div>
                                 </div>
@@ -201,7 +322,7 @@
                                         <em class="icon ikon ikon-document"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h5 class="title title-sm tc-primary">Personal data must be isolated</h5>
+                                        <h5 class="title title-sm">Personal data must be isolated</h5>
                                         <p>Nam libero tempore, cum soluta nobis est optio cumque nihil impedit quo minus id quod.</p>
                                     </div>
                                 </div>
@@ -211,7 +332,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-features bg-theme tc-light" id="features">
+            <section class="section section-features bg-white" id="why">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-features-s2">
@@ -233,7 +354,7 @@
                                             <em class="icon ikon ikon-shiled-alt"></em>
                                         </div>
                                         <div class="feature-text">
-                                            <h5 class="title title-sm tc-primary">Secured User Data</h5>
+                                            <h5 class="title title-sm">Secured User Data</h5>
                                             <p>We protect user data and emo enim ipsam voluptatem quia voluptas sitaut odit aut fugit, sed quia conseq ur magni dolores aspernatur.</p>
                                         </div>
                                     </div>
@@ -242,7 +363,7 @@
                                             <em class="icon ikon ikon-user"></em>
                                         </div>
                                         <div class="feature-text">
-                                            <h5 class="title title-sm tc-primary">Most Credibility</h5>
+                                            <h5 class="title title-sm">Most Credibility</h5>
                                             <p>Most authentically sed do eiusmod tempor incididunt ut labore et dolore magna aliqua cillum dolore eu fugiat ipsum dolor sit amet.</p>
                                         </div>
                                     </div>
@@ -251,7 +372,7 @@
                                             <em class="icon ikon ikon-data-server"></em>
                                         </div>
                                         <div class="feature-text">
-                                            <h5 class="title title-sm tc-primary">Big Data Insights</h5>
+                                            <h5 class="title title-sm">Big Data Insights</h5>
                                             <p>You can trade &amp; invest toekn oluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat magni dolores.</p>
                                         </div>
                                     </div>
@@ -262,7 +383,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-problem bg-theme-dark tc-light" id="problem">
+            <section class="section section-problem bg-light" id="problem">
                 <div class="container">
                     <!-- Section Head @s -->
                     <div class="section-head text-center wide-auto-sm">
@@ -273,7 +394,7 @@
                     <div class="nk-block nk-block-problems tc-light">
                         <div class="row g-0 align-items-center">
                             <div class="col-lg-6">
-                                <div class="feature boxed boxed-lg bg-theme-alt no-mg split-lg-left split-left animated" data-animate="fadeInUp" data-delay=".3">
+                                <div class="feature boxed boxed-lg bg-theme no-mg split-lg-left split-left animated" data-animate="fadeInUp" data-delay=".3">
                                     <h4 class="title title-md">Automation Development</h4>
                                     <p>The automation development provides rem aperiam, et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit molestiae illum qui dolorem eum.</p>
                                     <ul class="list list-dot">
@@ -286,19 +407,19 @@
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="feature-group bg-theme-alt split-right split-lg animated" data-animate="fadeInUp" data-delay=".4">
-                                    <div class="feature boxed bg-white-7">
+                                    <div class="feature boxed bg-white-10">
                                         <div class="feature-text">
                                             <h4 class="title title-md">High transfer fees</h4>
                                             <p>Each year over than 200$ bilion fees rem aperiam, et quasi arch itecto beatae vitae dicta sunt explicabo. Voluptas sit aspernatur aut odit aut fugit molestiae illum qui dolorem eum.</p>
                                         </div>
                                     </div>
-                                    <div class="feature boxed bg-white-14">
+                                    <div class="feature boxed bg-white-2">
                                         <div class="feature-text">
                                             <h4 class="title title-md">Scaling and Absolete Tool</h4>
                                             <p>Scalling is biggest problem that comes rem aperiam, et quasi arch itecto beatae vitae dicta sunt explicabo. Voluptas sit aspern odit aut fugit illum qui dolorem eum.</p>
                                         </div>
                                     </div>
-                                    <div class="feature boxed bg-white-22">
+                                    <div class="feature boxed bg-black-10">
                                         <div class="feature-text">
                                             <h4 class="title title-md">Secure Networks &amp; Flexibility</h4>
                                             <p>Security is most concern for long rem aperiam, et quasi arch itecto beatae vitae aspernatur aut odit aut fugit molestiae illum qui dolorem ullamco laboris nisi volupt natus.</p>
@@ -311,7 +432,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-solution bg-theme-dark tc-light pt-0" id="solution">
+            <section class="section section-solution bg-light pt-0" id="solution">
                 <div class="container">
                     <!-- Section Head @s -->
                     <div class="section-head text-center wide-auto-sm">
@@ -320,14 +441,14 @@
                     </div><!-- .section-head @e -->
                     <!-- Block @s -->
                     <div class="nk-block nk-block-features-s3">
-                        <div class="row gutter-vr-50px justify-content-center">
+                        <div class="row gutter-vr-40px justify-content-center">
                             <div class="col-lg-6 col-md-10">
                                 <div class="feature feature-s3 feature-center animated" data-animate="fadeInUp" data-delay=".3">
                                     <div class="feature-icon feature-icon-lg">
                                         <em class="icon icon-lg ikon ikon-cloud"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h4 class="title title-md tc-primary">Global Single-Platform:</h4>
+                                        <h4 class="title title-md title-dark">Global Single-Platform:</h4>
                                         <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid eos qui ratione</p>
                                     </div>
                                 </div>
@@ -338,7 +459,7 @@
                                         <em class="icon icon-lg ikon ikon-safety"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h4 class="title title-md tc-primary">Be Safe and Secure:</h4>
+                                        <h4 class="title title-md title-dark">Be Safe and Secure:</h4>
                                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia agni dolores eos qui ratione voluptatem sequi</p>
                                     </div>
                                 </div>
@@ -349,7 +470,7 @@
                                         <em class="icon icon-lg ikon ikon-cash"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h4 class="title title-md tc-primary">Decentralize Payment Systems</h4>
+                                        <h4 class="title title-md title-dark">Decentralize Payment Systems</h4>
                                         <p>Empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris fugiat nulla sed do</p>
                                     </div>
                                 </div>
@@ -360,7 +481,7 @@
                                         <em class="icon icon-lg ikon ikon-globe"></em>
                                     </div>
                                     <div class="feature-text">
-                                        <h4 class="title title-md tc-primary">Blockchain Based DevOps Marketplace</h4>
+                                        <h4 class="title title-md title-dark">Blockchain Based DevOps Marketplace</h4>
                                         <p>Ut enim ad minim veniam, quis nostrud ullamco laboris fugiat nulla sed do eiusmod. Empor incididunt ut labore et dolore magna</p>
                                     </div>
                                 </div>
@@ -370,7 +491,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-product bg-theme tc-light" id="products">
+            <section class="section section-product bg-white" id="products">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-features-s4 mgb-m30">
@@ -402,7 +523,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="bg-theme-dark bg-pattern-dots" id="tokensale">
+            <section class="bg-theme bg-pattern-dots" id="tokens">
                 <div class="section section-tokensale tc-light">
                     <div class="container">
                         <!-- Section Head @s -->
@@ -416,7 +537,7 @@
                                 <div class="col-lg-7">
                                     <div class="token-info bg-theme animated" data-animate="fadeInUp" data-delay=".3">
                                         <h4 class="title title-md mb-2 text-sm-center">Sales Information</h4>
-                                        <table class="table table-s1 table-token">
+                                        <table class="table  table-s1 table-token">
                                             <tbody>
                                                 <tr>
                                                     <td class="table-head">Public Sale Starts</td>
@@ -528,14 +649,14 @@
                             </div><!-- .row -->
                         </div><!-- .block @e -->
                     </div>
-                    <div class="nk-ovm ovm-bottom ovm-h-70 bg-theme-dark"></div><!-- .nk-ovm -->
+                    <div class="nk-ovm ovm-bottom ovm-h-70 bg-light"></div><!-- .nk-ovm -->
                 </div><!-- .section-tokendes -->
             </section>
             <!-- // -->
-            <section class="section bg-theme-dark section-document" id="documents">
+            <section class="section bg-light section-document" id="documents">
                 <div class="container">
                     <!-- Section Head @s -->
-                    <div class="section-head text-center wide-auto tc-light">
+                    <div class="section-head text-center wide-auto">
                         <h2 class="title animated" data-animate="fadeInUp" data-delay=".1">ICOX Tokens</h2>
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Our Tokens with a realworld use case created on the blockchain network.</p>
                     </div><!-- .section-head @e -->
@@ -568,7 +689,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-wallet bg-theme tc-light" id="app-download">
+            <section class="section section-wallet bg-white" id="app-download">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-text-wrap">
@@ -596,7 +717,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-wallet-bottom bg-theme tc-light pdt-0" id="wallet">
+            <section class="section section-wallet-bottom bg-white pdt-0" id="wallet">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-text-grp mgb-m30">
@@ -625,7 +746,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section tc-light bg-theme-dark" id="admin-intro">
+            <section class="section tc-light bg-theme-grad" id="admin-intro">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-text-wrap">
@@ -655,7 +776,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-roadmap bg-theme tc-light" id="roadmap">
+            <section class="section section-roadmap bg-white" id="roadmap">
                 <div class="container">
                     <!-- Section Head @s -->
                     <div class="section-head text-center wide-auto">
@@ -728,7 +849,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-team bg-theme-dark tc-light" id="team">
+            <section class="section section-team bg-light" id="team-featured">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block nk-block-team-featured team-featured">
@@ -752,7 +873,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-team bg-theme-dark tc-light pt-0" id="team-members">
+            <section class="section section-team bg-light pt-0" id="team">
                 <div class="container">
                     <!-- Section Head @s -->
                     <div class="section-head text-center wide-auto">
@@ -932,7 +1053,7 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-faq bg-theme tc-light" id="faq">
+            <section class="section section-faq bg-white" id="faq">
                 <div class="container">
                     <!-- Section Head @s -->
                     <div class="section-head text-center wide-auto">
@@ -953,7 +1074,7 @@
                             <div class="col-md-8 col-lg-9">
                                 <div class="tab-content">
                                     <div class="tab-pane fade show active" id="general-questions">
-                                        <div class="accordion accordion-s2 accordion-faq" id="faq-1">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-1">
                                             <div class="accordion-item animated" data-animate="fadeInUp" data-delay=".1">
                                                 <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-1-1">What is ICO Crypto? <span class="accordion-icon"></span></h5>
                                                 <div id="faq-1-1" class="collapse show" data-bs-parent="#faq-1">
@@ -989,7 +1110,7 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="ico-questions">
-                                        <div class="accordion accordion-s2 accordion-faq" id="faq-2">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-2">
                                             <div class="accordion-item animated" data-animate="fadeInUp" data-delay=".1">
                                                 <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-2-1">Which of us ever undertakes laborious?<span class="accordion-icon"></span></h5>
                                                 <div id="faq-2-1" class="collapse show" data-bs-parent="#faq-2">
@@ -1027,7 +1148,7 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="tokens-sales">
-                                        <div class="accordion accordion-s2 accordion-faq" id="faq-3">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-3">
                                             <div class="accordion-item animated" data-animate="fadeInUp" data-delay=".1">
                                                 <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-3-1">When she reached the first hills?<span class="accordion-icon"></span></h5>
                                                 <div id="faq-3-1" class="collapse show" data-bs-parent="#faq-3">
@@ -1063,7 +1184,7 @@
                                         </div>
                                     </div>
                                     <div class="tab-pane fade" id="clients-releted">
-                                        <div class="accordion accordion-s2 accordion-faq" id="faq-4">
+                                        <div class="accordion accordion-s1 accordion-faq" id="faq-4">
                                             <div class="accordion-item animated" data-animate="fadeInUp" data-delay=".1">
                                                 <h5 class="accordion-title accordion-title-sm" data-bs-toggle="collapse" data-bs-target="#faq-4-1">How do I benefit from the ICO Token?<span class="accordion-icon"></span></h5>
                                                 <div id="faq-4-1" class="collapse show" data-bs-parent="#faq-4">
@@ -1105,19 +1226,19 @@
                 </div>
             </section>
             <!-- // -->
-            <section class="section section-m section-partners bg-theme-dark" id="partners">
+            <section class="section section-m section-partners bg-light" id="partners">
                 <div class="container">
                     <!-- Block @s -->
                     <div class="nk-block block-partners">
                         <h6 class="title title-xs tc-primary text-center animated" data-animate="fadeInUp" data-delay=".1">Our Partners</h6>
                         <ul class="partner-list flex-lg-nowrap">
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".2"><img src="images/partners/a-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".3"><img src="images/partners/b-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".4"><img src="images/partners/c-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".5"><img src="images/partners/d-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".6"><img src="images/partners/e-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".7"><img src="images/partners/f-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".8"><img src="images/partners/g-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".2"><img src="images/partners/a.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".3"><img src="images/partners/b.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".4"><img src="images/partners/c.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".5"><img src="images/partners/d.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".6"><img src="images/partners/e.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".7"><img src="images/partners/f.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".8"><img src="images/partners/g.png" alt="partner"></li>
                         </ul>
                     </div>
                     <!-- Block @e -->
@@ -1160,7 +1281,7 @@
                                 </div>
                             </div><!-- .col -->
                             <div class="col-lg-4">
-                                <div class="contact-wrap split split-right split-lg-right bg-secondary tc-light">
+                                <div class="contact-wrap split split-right split-lg-right bg-genitian bg-theme tc-light">
                                     <div class="d-flex flex-column justify-content-between h-100">
                                         <ul class="contact-list">
                                             <li>
@@ -1206,7 +1327,7 @@
                         </div><!-- .row -->
                     </div><!-- .block @e -->
                 </div>
-                <div class="nk-ovm ovm-top ovm-h-60 bg-theme-dark"></div><!-- .nk-ovm -->
+                <div class="nk-ovm ovm-top ovm-h-60 bg-light"></div><!-- .nk-ovm -->
             </section>
             <!-- // -->
             <section class="section section-footer tc-light bg-transparent">
@@ -1273,80 +1394,14 @@
             <div class="nk-ovm shape-b"></div>
         </footer>
     </div>
-    <!-- Modals -->
-    <!-- This is used in azalea, azalea-woa, gentian, gentian-woa, gentian-pro, gentian-pro-woa.html pages  -->
-    <!-- Modal @s -->
-    <div class="modal fade" id="login-popup">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <a href="#" class="modal-close" data-bs-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
-                <div class="ath-container m-0">
-                    <div class="ath-body">
-                        <h5 class="ath-heading title">Sign in <small class="tc-default">with your ICO Account</small></h5>
-                        <form action="#">
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="text" class="input-bordered" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="password" class="input-bordered" placeholder="Password">
-                                </div>
-                            </div>
-                            <div class="field-item d-flex justify-content-between align-items-center">
-                                <div class="field-item pb-0">
-                                    <input class="input-checkbox" id="remember-me-100" type="checkbox">
-                                    <label for="remember-me-100">Remember Me</label>
-                                </div>
-                                <div class="forget-link fz-6">
-                                    <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#reset-popup">Forgot password?</a>
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-md">Sign In</button>
-                        </form>
-                        <div class="sap-text"><span>Or Sign In With</span></div>
-                        <ul class="row gutter-20px gutter-vr-20px">
-                            <li class="col"><a href="#" class="btn btn-md btn-facebook btn-block"><em class="icon fab fa-facebook-f"></em><span>Facebook</span></a></li>
-                            <li class="col"><a href="#" class="btn btn-md btn-google btn-block"><em class="icon fab fa-google"></em><span>Google</span></a></li>
-                        </ul>
-                        <div class="ath-note text-center"> Don’t have an account? <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#register-popup"> <strong>Sign up here</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .modal @e -->
-    <!-- Modal @s -->
-    <div class="modal fade" id="reset-popup">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <a href="#" class="modal-close" data-bs-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
-                <div class="ath-container m-0">
-                    <div class="ath-body">
-                        <h5 class="ath-heading title">Reset <small class="tc-default">with your Email</small></h5>
-                        <form action="#">
-                            <div class="field-item">
-                                <div class="field-wrap">
-                                    <input type="text" class="input-bordered" placeholder="Your Email">
-                                </div>
-                            </div>
-                            <button class="btn btn-primary btn-block btn-md">Reset Password</button>
-                            <div class="ath-note text-center"> Remembered? <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#login-popup"> <strong>Sign in here</strong></a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .modal @e -->
     <!-- preloader -->
     <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/logo-full-white.png" alt=""></span></div>
     <!-- JavaScript -->
-    <script src="assets/js/jquery.bundle.js?ver=200"></script>
-    <script src="assets/js/scripts.js?ver=200"></script>
-    <script src="assets/js/charts.js?ver=200"></script>
-    <script src="assets/js/charts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/jquery.bundle.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/scripts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/charts.js?ver=200"></script>
+    <script src="{{ .Site.BaseURL }}js/charts.js?ver=200"></script>
+
 </body>
 
 </html>
