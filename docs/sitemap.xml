@@ -2,20 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.covenant.srl/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/comingsoon/</loc>
+    <loc>https://www.covenant.srl/comingsoon/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.covenant.srl/</loc>
   </url><url>
-    <loc>http://localhost:1313/home/home1/</loc>
+    <loc>https://www.covenant.srl/home/home1/</loc>
   </url><url>
-    <loc>http://localhost:1313/home/home2/</loc>
+    <loc>https://www.covenant.srl/home/home10/</loc>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://www.covenant.srl/home/home11/</loc>
   </url><url>
-    <loc>http://localhost:1313/privacy/</loc>
+    <loc>https://www.covenant.srl/home/home12/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.covenant.srl/home/home2/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home3/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home4/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home5/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home5a/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home6/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home7/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home8/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/home9/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/home/</loc>
+  </url><url>
+    <loc>https://www.covenant.srl/tags/</loc>
   </url>
 </urlset>
