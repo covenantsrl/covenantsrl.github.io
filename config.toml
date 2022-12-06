@@ -1,4 +1,6 @@
-baseURL = 'https://www.covenant.srl/'
+#baseURL = 'https://www.covenant.srl/'
+baseURL = '/'
+
 languageCode = 'en-us'
 title = 'Covenant Srls'
 
