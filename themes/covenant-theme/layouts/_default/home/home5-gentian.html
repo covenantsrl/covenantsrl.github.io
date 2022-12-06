@@ -13,8 +13,8 @@
                         <!-- Logo @s -->
                         <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
                             <a href="./" class="logo-link">
-                                <img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
-                                <img class="logo-light" src="images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
+                                <img class="logo-dark" src="{{ .Site.BaseURL }}{{ .Site.BaseURL }}images/logo.png" srcset="{{ .Site.BaseURL }}{{ .Site.BaseURL }}images/logo2x.png 2x" alt="logo">
+                                <img class="logo-light" src="{{ .Site.BaseURL }}images/logo-full-white.png" srcset="{{ .Site.BaseURL }}images/logo-full-white2x.png 2x" alt="logo">
                             </a>
                         </div>
                         <!-- Menu Toogle @s -->
@@ -109,23 +109,23 @@
                 <h6 class="title title-xs tc-secondary pdb-s animated" data-animate="fadeInUp" data-delay=".8">Ico Rating</h6>
                 <ul class="rank-list">
                     <li class="rank-item animated" data-animate="fadeInUp" data-delay=".9">
-                        <img src="images/logo/a.png" alt="">
+                        <img src="{{ .Site.BaseURL }}images/logo/a.png" alt="">
                         <div class="rank-count">4.7 <span>/5</span></div>
                     </li>
                     <li class="rank-item animated" data-animate="fadeInUp" data-delay="1">
-                        <img src="images/logo/b.png" alt="">
+                        <img src="{{ .Site.BaseURL }}images/logo/b.png" alt="">
                         <div class="rank-count">A</div>
                     </li>
                     <li class="rank-item animated" data-animate="fadeInUp" data-delay="1.1">
-                        <img src="images/logo/c.png" alt="">
+                        <img src="{{ .Site.BaseURL }}images/logo/c.png" alt="">
                         <div class="rank-count">9.4 <span>/10</span></div>
                     </li>
                     <li class="rank-item animated" data-animate="fadeInUp" data-delay="1.2">
-                        <img src="images/logo/d.png" alt="">
+                        <img src="{{ .Site.BaseURL }}images/logo/d.png" alt="">
                         <div class="rank-count">4.9 <span>/5</span></div>
                     </li>
                     <li class="rank-item animated" data-animate="fadeInUp" data-delay="1.3">
-                        <img src="images/logo/e.png" alt="">
+                        <img src="{{ .Site.BaseURL }}images/logo/e.png" alt="">
                         <div class="rank-count">5 <span>/5</span></div>
                     </li>
                 </ul>
@@ -146,7 +146,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="nk-block-video animated" data-animate="fadeInUp" data-delay=".5">
-                                    <img src="images/video/a.png" alt="video">
+                                    <img src="{{ .Site.BaseURL }}images/video/a.png" alt="video">
                                     <a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="nk-block-video-play video-popup btn-play btn-play-light"><em class="fas fa-play"></em></a>
                                 </div>
                             </div>
@@ -204,7 +204,7 @@
                         <div class="row align-items-center flex-row-reverse">
                             <div class="col-lg-5">
                                 <div class="gfx py-4 animated" data-animate="fadeInUp" data-delay=".1">
-                                    <img src="images/gfx/gfx-a.png" alt="gfx">
+                                    <img src="{{ .Site.BaseURL }}images/gfx/gfx-a.png" alt="gfx">
                                 </div>
                             </div><!-- .col -->
                             <div class="col-lg-7">
@@ -370,7 +370,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <a href="#" class="feature feature-s4 feature-center animated" data-animate="fadeInUp" data-delay=".3">
                                     <div class="feature-img">
-                                        <img src="images/products/a.jpg" alt="product">
+                                        <img src="{{ .Site.BaseURL }}images/products/a.jpg" alt="product">
                                     </div>
                                     <h5 class="title title-sm title-dark">Product Title One</h5>
                                 </a>
@@ -378,7 +378,7 @@
                             <div class="col-lg-4 col-sm-6">
                                 <a href="#" class="feature feature-s4 feature-center animated" data-animate="fadeInUp" data-delay=".4">
                                     <div class="feature-img">
-                                        <img src="images/products/b.jpg" alt="product">
+                                        <img src="{{ .Site.BaseURL }}images/products/b.jpg" alt="product">
                                     </div>
                                     <h5 class="title title-sm title-dark">Product Title Two</h5>
                                 </a>
@@ -533,7 +533,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-md-6">
                                             <div class="nk-block-img px-4 pb-4 pb-md-0">
-                                                <img src="images/doc-a.png" alt="doc">
+                                                <img src="{{ .Site.BaseURL }}images/doc-a.png" alt="doc">
                                             </div>
                                         </div><!-- .col -->
                                         <div class="col-md-6">
@@ -563,7 +563,7 @@
                                 <div class="nk-block-img bg-pattern-dots-color">
                                     <div class="app-slide-wrap animated" data-animate="fadeInUp" data-delay=".1">
                                         <div class="app-slide">
-                                            <img src="images/app-screens/a.jpg" alt="App Screen">
+                                            <img src="{{ .Site.BaseURL }}images/app-screens/a.jpg" alt="App Screen">
                                         </div>
                                     </div>
                                 </div>
@@ -618,7 +618,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-7 order-lg-last">
                                 <div class="nk-block-img edge-r1 pb-4 pb-lg-0 animated" data-animate="fadeInUp" data-delay=".1">
-                                    <img src="images/app-screens/laptop-a.png" alt="app">
+                                    <img src="{{ .Site.BaseURL }}images/app-screens/laptop-a.png" alt="app">
                                 </div>
                             </div>
                             <div class="col-lg-5">
@@ -721,7 +721,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-5 mb-4 mb-lg-0">
                                 <div class="team-featured-photo tc-light animated" data-animate="fadeInUp" data-delay=".1">
-                                    <img src="images/team/large-a.jpg" alt="team">
+                                    <img src="{{ .Site.BaseURL }}images/team/large-a.jpg" alt="team">
                                     <h5 class="team-featured-info">David Metthew<span>Chairman of ICOX and Entrepreneur</span></h5>
                                 </div>
                             </div>
@@ -750,7 +750,7 @@
                             <div class="col-md-3 col-6">
                                 <div class="team animated" data-animate="fadeInUp" data-delay=".2">
                                     <div class="team-photo">
-                                        <img src="images/team/a.jpg" alt="team">
+                                        <img src="{{ .Site.BaseURL }}images/team/a.jpg" alt="team">
                                         <a href="#team-popup-1" class="team-show content-popup"></a>
                                         <ul class="team-social">
                                             <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
@@ -766,7 +766,7 @@
                                     <div class="row align-items-start">
                                         <div class="col-md-6">
                                             <div class="team-photo">
-                                                <img src="images/team/a.jpg" alt="team">
+                                                <img src="{{ .Site.BaseURL }}images/team/a.jpg" alt="team">
                                             </div>
                                         </div><!-- .col  -->
                                         <div class="col-md-6">
@@ -801,7 +801,7 @@
                             <div class="col-md-3 col-6">
                                 <div class="team animated" data-animate="fadeInUp" data-delay=".2">
                                     <div class="team-photo">
-                                        <img src="images/team/b.jpg" alt="team">
+                                        <img src="{{ .Site.BaseURL }}images/team/b.jpg" alt="team">
                                         <a href="#team-popup-2" class="team-show content-popup"></a>
                                         <ul class="team-social">
                                             <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
@@ -817,7 +817,7 @@
                                     <div class="row align-items-start">
                                         <div class="col-md-6">
                                             <div class="team-photo">
-                                                <img src="images/team/b.jpg" alt="team">
+                                                <img src="{{ .Site.BaseURL }}images/team/b.jpg" alt="team">
                                             </div>
                                         </div><!-- .col  -->
                                         <div class="col-md-6">
@@ -838,7 +838,7 @@
                             <div class="col-md-3 col-6">
                                 <div class="team animated" data-animate="fadeInUp" data-delay=".3">
                                     <div class="team-photo">
-                                        <img src="images/team/c.jpg" alt="team">
+                                        <img src="{{ .Site.BaseURL }}images/team/c.jpg" alt="team">
                                         <a href="#team-popup-3" class="team-show content-popup"></a>
                                         <ul class="team-social">
                                             <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
@@ -854,7 +854,7 @@
                                     <div class="row align-items-start">
                                         <div class="col-md-6">
                                             <div class="team-photo">
-                                                <img src="images/team/c.jpg" alt="team">
+                                                <img src="{{ .Site.BaseURL }}images/team/c.jpg" alt="team">
                                             </div>
                                         </div><!-- .col  -->
                                         <div class="col-md-6">
@@ -875,7 +875,7 @@
                             <div class="col-md-3 col-6">
                                 <div class="team animated" data-animate="fadeInUp" data-delay=".4">
                                     <div class="team-photo">
-                                        <img src="images/team/d.jpg" alt="team">
+                                        <img src="{{ .Site.BaseURL }}images/team/d.jpg" alt="team">
                                         <a href="#team-popup-4" class="team-show content-popup"></a>
                                         <ul class="team-social">
                                             <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
@@ -891,7 +891,7 @@
                                     <div class="row align-items-start">
                                         <div class="col-md-6">
                                             <div class="team-photo">
-                                                <img src="images/team/d.jpg" alt="team">
+                                                <img src="{{ .Site.BaseURL }}images/team/d.jpg" alt="team">
                                             </div>
                                         </div><!-- .col  -->
                                         <div class="col-md-6">
@@ -1097,13 +1097,13 @@
                     <div class="nk-block block-partners">
                         <h6 class="title title-xs tc-primary text-center animated" data-animate="fadeInUp" data-delay=".1">Our Partners</h6>
                         <ul class="partner-list flex-lg-nowrap">
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".2"><img src="images/partners/a-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".3"><img src="images/partners/b-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".4"><img src="images/partners/c-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".5"><img src="images/partners/d-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".6"><img src="images/partners/e-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".7"><img src="images/partners/f-light.png" alt="partner"></li>
-                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".8"><img src="images/partners/g-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".2"><img src="{{ .Site.BaseURL }}images/partners/a-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".3"><img src="{{ .Site.BaseURL }}images/partners/b-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".4"><img src="{{ .Site.BaseURL }}images/partners/c-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".5"><img src="{{ .Site.BaseURL }}images/partners/d-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".6"><img src="{{ .Site.BaseURL }}images/partners/e-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".7"><img src="{{ .Site.BaseURL }}images/partners/f-light.png" alt="partner"></li>
+                            <li class="partner-logo animated" data-animate="fadeInUp" data-delay=".8"><img src="{{ .Site.BaseURL }}images/partners/g-light.png" alt="partner"></li>
                         </ul>
                     </div>
                     <!-- Block @e -->
@@ -1245,7 +1245,7 @@
                                 <div class="wgs wgs-text animated" data-animate="fadeInUp" data-delay=".1">
                                     <div class="wgs-body">
                                         <a href="./" class="wgs-logo">
-                                            <img src="images/logo-full-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
+                                            <img src="{{ .Site.BaseURL }}images/logo-full-white.png" srcset="{{ .Site.BaseURL }}images/logo-full-white2x.png 2x" alt="logo">
                                         </a>
                                         <p>Copyright &copy; 2022 ICO Crypto. <br>ABN: 2018AD947. All rights reserved. </p>
                                         <p class="copyright-text">Template by <a href="https://softnio.com/">Softnio</a>. Handcrafted by iO.</p>
@@ -1327,7 +1327,7 @@
         </div>
     </div><!-- .modal @e -->
     <!-- preloader -->
-    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="images/logo-full-white.png" alt=""></span></div>
+    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="{{ .Site.BaseURL }}images/logo-full-white.png" alt=""></span></div>
     <!-- JavaScript -->
     <script src="{{ .Site.BaseURL }}js/jquery.bundle.js?ver=200"></script>
     <script src="{{ .Site.BaseURL }}js/scripts.js?ver=200"></script>
