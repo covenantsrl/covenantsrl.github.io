@@ -1,8 +1,0 @@
-name = "Covenant"
-tags = ["blog", "company"]
-features = ["blog", "themes"]
-min_version = 0.53
-
-[author]
-    name = "LC"
-    homepage = "https://www.covenant.srl"
