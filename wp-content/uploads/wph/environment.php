@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"advice","mapped_name":"covenant"},"child_theme":{"folder_name":"advice-child","mapped_name":"covenant-child"},"allowed_paths":["\/web\/htdocs\/www.covenant.srl\/home\/wp-content\/themes"],"cache_path":"\/web\/htdocs\/www.covenant.srl\/home\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/"}'; ?>
