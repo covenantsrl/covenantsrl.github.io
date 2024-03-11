@@ -555,7 +555,7 @@ exit(0);
 1558550065_0571:"Notice: adminluca, 2.239.18.215; Revision status has been changed; details: ID: 2415,Old status: new,New status: inherit,Title: Home"
 1558550110_8362:"Notice: adminluca, 2.239.18.215; Page was updated; ID: 142; name: Home"
 1558550110_9358:"Notice: adminluca, 2.239.18.215; Revision status has been changed; details: ID: 2416,Old status: new,New status: inherit,Title: Home"
-1558552199_7006:"Info: adminluca, 2.239.18.215; These emails will stop receiving alerts: info@covenant.srl"
+1558552199_7006:"Info: adminluca, 2.239.18.215; These emails will stop receiving alerts: support@covenant.srl"
 1558552220_366:"Info: adminluca, 2.239.18.215; The email alerts will be sent to: luca@covenant.srl"
 1559214583_1639:"Notice: 194.79.195.112; User authentication succeeded: adminluca"
 1559214818_8445:"Warning: adminluca, 194.79.195.112; Post deleted: (multiple entries): Post id: 1834,Post author: 1,Post type: nav_menu_item,Post status: publish,Post inserted: 2018-05-09 09:46:07,Post modified: 2018-10-06 21:06:08,Post guid: http:\/\/covenant.srl\/?p=1834,Post title: Settori"
