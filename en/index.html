@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="it-IT">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Covenant – Integrated Service Solutions</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
-  <link rel="shortcut icon" href="./assets/favicon-32.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -36,7 +36,6 @@
       overflow-x: hidden;
     }
 
-    /* ── GRID BACKGROUND ── */
     .page-grid {
       position: fixed;
       inset: 0;
@@ -47,19 +46,6 @@
         linear-gradient(90deg, rgba(255,255,255,0.028) 1px, transparent 1px);
       background-size: 80px 80px;
     }
-
-    /* corner tick marks like Qore */
-    .page-grid::before,
-    .page-grid::after {
-      content: '';
-      position: absolute;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.15);
-    }
-    .page-grid::before { top: 0; left: 0; }
-    .page-grid::after  { bottom: 0; right: 0; }
 
     /* ── NAVBAR ── */
     nav {
@@ -431,10 +417,7 @@
 
     .footer-bottom a:hover { color: var(--white); }
 
-    .footer-legal {
-      display: flex;
-      gap: 20px;
-    }
+    .footer-legal { display: flex; gap: 20px; }
 
     /* ── KEYFRAMES ── */
     @keyframes fadeUp {
@@ -447,10 +430,7 @@
     .card:nth-child(2) { transition-delay: 0.12s; }
     .card:nth-child(3) { transition-delay: 0.19s; }
     .card:nth-child(4) { transition-delay: 0.26s; }
-    .card:nth-child(5) { transition-delay: 0.33s; }
-    .card:nth-child(6) { transition-delay: 0.40s; }
 
-    /* ── RESPONSIVE ── */
     @media (max-width: 1024px) {
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
@@ -473,29 +453,28 @@
 </head>
 <body>
 
-  <!-- grid background -->
   <div class="page-grid"></div>
 
   <!-- ── NAVBAR ── -->
   <nav id="navbar">
     <a href="#top" class="nav-logo">
-      <img src="./wp-content/uploads/2018/10/logo-1.png" alt="Covenant"
+      <img src="/wp-content/uploads/2018/10/logo-1.png" alt="Covenant"
            srcset="./wp-content/uploads/2018/10/logo-1-300x57.png 300w, ./wp-content/uploads/2018/10/logo-1.png 600w"
            sizes="(max-width:600px) 300px, 600px">
     </a>
 
     <ul class="nav-links">
       <li><a href="#top">Home</a></li>
-      <li><a href="#servizi">Servizi</a></li>
-      <li><a href="#servizi">Privacy Consulting</a></li>
-      <li><a href="#servizi">Blockchain</a></li>
-      <li><a href="#contatti">Contatti</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#services">Privacy Consulting</a></li>
+      <li><a href="#services">Blockchain</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     <div class="nav-right">
       <div class="lang-switch">
-        <a href="./index.html" class="active">IT</a>
-        <a href="/en">EN</a>
+        <a href="/">IT</a>
+        <a href="/en" class="active">EN</a>
       </div>
       <div class="nav-hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -507,103 +486,101 @@
   <section class="hero" id="top">
     <div class="hero-video">
       <video muted autoplay loop playsinline>
-        <source src="./assets/video/BlackHole.mp4" type="video/mp4">
+        <source src="/assets/video/BlackHole.mp4" type="video/mp4">
       </video>
     </div>
 
     <div class="hero-content">
       <h1 class="hero-title">
-        Innovazione costante. Tecnologia con visione.
+        Constant Evolution. Technology with Vision.
       </h1>
       <p class="hero-subtitle">
-        Progettiamo e sviluppiamo soluzioni as-a-service per la digitalizzazione
-        e il progresso tecnologico di imprese e professionisti.
+        We design and build end-to-end digital solutions for the digitalisation
+        and technological growth of businesses and professionals.
       </p>
     </div>
   </section>
 
   <!-- ── SERVICE CARDS ── -->
-  <section class="services" id="servizi">
-    <p class="section-label">Cosa facciamo</p>
-    <h2 class="section-title">Ogni sfida ha una soluzione digitale</h2>
-    <p class="section-sub">Due unit business sinergiche: Information Technology e Privacy, per coprire ogni aspetto della tua trasformazione digitale.</p>
+  <section class="services" id="services">
+    <p class="section-label">What we do</p>
+    <h2 class="section-title">Every challenge has a digital solution</h2>
+    <p class="section-sub">Two synergic business units — Information Technology and Privacy — covering every aspect of your digital transformation.</p>
 
     <div class="cards-grid" id="cardsGrid">
       <div class="card">
         <div class="card-icon-wrap">
           <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
         </div>
-        <h3 class="card-title">AI Agents Specializzati</h3>
-        <p class="card-desc">Sviluppiamo agenti AI iperspecializzati su misura per i tuoi processi aziendali: RAG, LLM pipeline e automazione intelligente.</p>
+        <h3 class="card-title">Specialised AI Agents</h3>
+        <p class="card-desc">We build hyper-specialised AI agents tailored to your business processes: RAG pipelines, LLM orchestration and intelligent automation.</p>
       </div>
       <div class="card">
         <div class="card-icon-wrap">
           <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
         </div>
         <h3 class="card-title">Privacy & Compliance</h3>
-        <p class="card-desc">DPO as a Service, DPIA, audit di conformità GDPR e implementazione di processi privacy-by-design per aziende e PA.</p>
+        <p class="card-desc">DPO as a Service, DPIA, GDPR compliance audits and privacy-by-design implementation for companies and public bodies.</p>
       </div>
       <div class="card">
         <div class="card-icon-wrap">
           <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
         </div>
         <h3 class="card-title">Web & Mobile Development</h3>
-        <p class="card-desc">Web app, applicazioni mobile iOS/Android e soluzioni cloud-native sviluppate con le tecnologie più adatte al progetto.</p>
+        <p class="card-desc">Web apps, iOS/Android mobile applications and cloud-native solutions built with the most suitable technologies for each project.</p>
       </div>
       <div class="card">
         <div class="card-icon-wrap">
           <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </div>
         <h3 class="card-title">Blockchain & Web3</h3>
-        <p class="card-desc">Smart contract, tokenizzazione di asset, DeFi e consulenza su architetture distribuite per casi d'uso enterprise.</p>
+        <p class="card-desc">Smart contracts, asset tokenisation, DeFi solutions and consulting on distributed architectures for enterprise use cases.</p>
       </div>
     </div>
   </section>
 
   <!-- ── FOOTER ── -->
-  <footer id="contatti">
+  <footer id="contact">
     <div class="footer-inner">
       <div class="footer-brand">
-        <img src="./wp-content/uploads/2018/10/logo-1.png" alt="Covenant"
+        <img src="/wp-content/uploads/2018/10/logo-1.png" alt="Covenant"
              srcset="./wp-content/uploads/2018/10/logo-1-300x57.png 300w, ./wp-content/uploads/2018/10/logo-1.png 600w">
-      <p>A bond, a pledge, a commitment.</p>
+             <p>A bond, a pledge, a commitment.</p>
             </div>
       <div class="footer-col">
-        <h4>Servizi</h4>
+        <h4>Services</h4>
         <ul>
           <li><a href="#">AI Agents</a></li>
-          <li><a href="#">AI Consulting</a></li>
           <li><a href="#">Privacy & Compliance</a></li>
-          <li><a href="#">Cyber Security</a></li>
           <li><a href="#">Web & Mobile</a></li>
           <li><a href="#">Blockchain & Web3</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Azienda</h4>
+        <h4>Company</h4>
         <ul>
-          <li><a href="./servizi/index.html">Servizi</a></li>
+          <li><a href="/services/index.html">Services</a></li>
           <li><a href="#">Privacy Consulting</a></li>
-          <li><a href="https://www.bechainlab.it">Blockchain</a></li>
-          <li><a href="./technology/index.html">Tecnologia</a></li>
-          <li><a href="./contatti/index.html">Contatti</a></li>
+          <li><a href="#">Blockchain</a></li>
+          <li><a href="/technology/index.html">Technology</a></li>
+          <li><a href="/contact-us/index.html">Contact Us</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Legale</h4>
+        <h4>Legal</h4>
         <ul>
-          <li><a href="./privacy-policy/index.html">Privacy Policy</a></li>
+          <li><a href="/privacy-policy/index.html">Privacy Policy</a></li>
         </ul>
-        <h4 style="margin-top:24px">Contatti</h4>
+        <h4 style="margin-top:24px">Contact</h4>
         <ul>
           <li><a href="mailto:support@covenant.srl">support@covenant.srl</a></li>
-          <li><a href="#">Via Flavia, 47 – Roma</a></li>
+          <li><a href="#">Via Flavia, 47 – Rome, Italy</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 Covenant Srls. P.IVA 14635081004. Tutti i diritti riservati.</p>
-      <a href="./privacy-policy/index.html">Privacy Policy</a>
+      <p>© 2025 Covenant Srls. VAT 14635081004. All rights reserved.</p>
+      <a href="/privacy-policy/index.html">Privacy Policy</a>
     </div>
   </footer>
 
